@@ -4,3 +4,21 @@ body {
    */
   font: 100%/1.5 system-ui;
 }
+
+.resume {
+  max-width: 80ch;
+  overflow-wrap: break-word;
+}
+
+.resume section {
+  margin-block: 2rem;
+}
+
+.resume article {
+  margin-block: 1.5rem;
+}
+
+.resume h3,
+.resume header p {
+  margin-block: 0.5rem;
+}
