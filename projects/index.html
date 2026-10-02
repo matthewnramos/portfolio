@@ -9,11 +9,35 @@
 <body>
     <nav>
         <a href="../">Home</a>
-        <a href="./">Projects</a>
+        <a href="./" aria-current="page">Projects</a>
         <a href="../contact/">Contact</a>
         <a href="../resume/">Resume</a>
         <a href="https://github.com/matthewnramos" target="_blank" rel="noopener noreferrer">GitHub</a>
     </nav>
-    <h1>Projects</h1>
+    <main class="projects">
+        <h1>Projects</h1>
+        <article>
+            <header>
+                <h2>RateMyProfessor Department Rating Analysis</h2>
+                <p>Python, Pandas, Jupyter</p>
+            </header>
+            <ul>
+                <li>Processed 1.35M+ professor reviews into 10,686 professor-period observations across 40 universities, using Python and pandas to analyze department-level rating differences.</li>
+                <li>Applied multiple linear regression and stratified Kruskal-Wallis tests, finding that STEM professors rated 0.56 points lower than humanities professors after adjusting for review volume, school group and time period.</li>
+                <li>Analyzed rating differences across four university groups and COVID versus non-COVID periods, finding that department gaps persisted across most subgroups while COVID period alone was not a significant predictor.</li>
+            </ul>
+        </article>
+        <article>
+            <header>
+                <h2>BuildVCT - VALORANT Roster Draft &amp; Tournament Simulator</h2>
+                <p>TypeScript, Next.js, React, Tailwind</p>
+            </header>
+            <ul>
+                <li>Built a data pipeline to scrape, clean and structure match and player statistics from 16 esports tournaments, covering 390+ matches and 1,000+ player stat lines.</li>
+                <li>Developed a seeded, map-by-map tournament simulation engine using ratings derived from historical match data, alongside a Redis-backed daily leaderboard.</li>
+                <li>Deployed an interactive roster-drafting application attracting thousands of viewers and reaching 200 concurrent users at peak.</li>
+            </ul>
+        </article>
+    </main>
 </body>
 </html>
