@@ -1,28 +1,309 @@
-body {
-  /* Set line height to 1.5 times the font size
-     and use the OS’s UI font as the website font
-   */
-  font: 100%/1.5 system-ui;
+:root {
+  --color-accent: #2563eb;
+  --color-accent-light: #eff6ff;
+  --color-border: #cbd5e1;
+  background-color: #f8fafc;
+  color: #1e293b;
+  accent-color: var(--color-accent);
 }
 
-.resume,
-.projects {
-  max-width: 80ch;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-inline: auto;
+  margin-block: 0;
+  padding: 1rem 1rem 3rem;
   overflow-wrap: break-word;
 }
 
-.resume section {
-  margin-block: 2rem;
+a {
+  color: var(--color-accent);
 }
 
-.resume article,
-.projects article {
-  margin-block: 1.5rem;
+a:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
 }
 
-.resume h3,
-.resume header p,
-.projects h2,
-.projects header p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 7vw, 4rem);
+}
+
+nav {
+  display: flex;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+nav a {
+  flex: 1;
+  min-width: 0;
+  padding: 0.5em 0.5em 0.1em;
+  border-bottom: 0.4em solid transparent;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+nav a.current {
+  border-bottom-color: var(--color-accent);
+  font-weight: 600;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  border-bottom-color: var(--color-accent);
+  background-color: var(--color-accent-light);
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 1em;
+  max-width: 65ch;
+}
+
+.contact-form label {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+  align-items: start;
+  font-weight: 600;
+}
+
+.contact-form label span {
+  padding-top: 0.65em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 0.65em 0.75em;
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+  background-color: #fff;
+  color: inherit;
+  font-weight: 400;
+}
+
+.contact-form textarea {
+  min-height: 10rem;
+  resize: vertical;
+}
+
+.contact-form button {
+  grid-column: 1 / -1;
+  padding: 0.65em 1em;
+  border: 1px solid var(--color-accent);
+  border-radius: 0.375rem;
+  background-color: var(--color-accent);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.contact-form :is(input, textarea, button):focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 34rem) {
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    flex-basis: 30%;
+    font-size: 0.875rem;
+    padding-inline: 0.25em;
+  }
+
+  .contact-form {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .contact-form label {
+    row-gap: 0.5em;
+  }
+
+  .contact-form label span {
+    padding-top: 0;
+  }
+}
+
+.resume {
+  max-width: 80ch;
+  margin-inline: auto;
+  overflow-wrap: break-word;
+}
+
+.resume > header {
+  margin-bottom: 2.5rem;
+}
+
+.resume h1 {
+  margin-bottom: 0.4em;
+}
+
+.resume-name {
   margin-block: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.resume-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-block: 1rem 0;
+}
+
+.resume-links a {
+  padding: 0.375em 0.75em;
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+  background-color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.resume-links a:hover {
+  border-color: var(--color-accent);
+  background-color: var(--color-accent-light);
+}
+
+.resume section {
+  margin-block: 2.5rem;
+}
+
+.resume h2 {
+  margin-block: 0 1.25rem;
+  padding-bottom: 0.6em;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-accent);
+  font-size: 1.3rem;
+}
+
+.resume article {
+  margin-block: 1.75rem;
+}
+
+.resume-entry-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.resume h3 {
+  margin: 0;
+  font-size: 1.0625rem;
+}
+
+.resume-entry-header p {
+  margin-block: 0.25rem 0;
+  color: #475569;
+}
+
+.resume-entry-header .resume-dates {
+  margin: 0;
+  font-size: 0.9375rem;
+  text-align: right;
+}
+
+.resume ul {
+  margin-block: 0.75rem 0;
+  padding-left: 1.25em;
+}
+
+.resume li + li {
+  margin-top: 0.5em;
+}
+
+.resume section[aria-labelledby="skills"] ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media (max-width: 34rem) {
+  .resume-entry-header {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.375rem;
+  }
+
+  .resume-entry-header .resume-dates {
+    text-align: left;
+  }
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(15em, 100%), 1fr));
+  gap: 1em;
+}
+
+.projects article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.projects h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.projects img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.project-description > :first-child {
+  margin-top: 0;
+}
+
+.project-description > :last-child {
+  margin-bottom: 0;
+}
+
+.project-description ul {
+  padding-left: 1.25em;
+}
+
+.project-description li + li {
+  margin-top: 0.5em;
 }

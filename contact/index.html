@@ -10,28 +10,25 @@
     <nav>
         <a href="../">Home</a>
         <a href="../projects/">Projects</a>
-        <a href="./">Contact</a>
+        <a href="./" class="current" aria-current="page">Contact</a>
         <a href="../resume/">Resume</a>
         <a href="https://github.com/matthewnramos" target="_blank" rel="noopener noreferrer">GitHub</a>
     </nav>
     <h1>Contact</h1>
-    <form action="mailto:matthew305ramos@gmail.com" method="POST" enctype="text/plain">
-        <p>
-            <label>Email
-                <input name="email" type="email">
-            </label>
-        </p>
-        <p>
-            <label>Subject
-                <input name="subject">
-            </label>
-        </p>
-        <p>
-            <label>Message
-                <textarea name="body" rows="5" cols="30"></textarea>
-            </label>
-        </p>
-        <button>Send</button>
+    <form class="contact-form" action="mailto:matthew305ramos@gmail.com" method="POST" enctype="text/plain">
+        <label>
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email">
+        </label>
+        <label>
+            <span>Subject</span>
+            <input name="subject" type="text">
+        </label>
+        <label>
+            <span>Message</span>
+            <textarea name="body" rows="5" cols="30"></textarea>
+        </label>
+        <button type="submit">Send</button>
     </form>
 </body>
 </html>
