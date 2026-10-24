@@ -11,7 +11,7 @@ Assignment: <https://dsc106.com/labs/lab04/>
 - The homepage fetches public repositories, public gists, followers, and following for `matthewnramos` from GitHub's API.
 - Loading, empty, and error states provide feedback; a failed GitHub request does not prevent projects from loading.
 - Existing navigation, saved themes, and contact behavior remain available.
-- Script and stylesheet URLs use `?v=lab4` to avoid mixing cached Lab 3 files with Lab 4 modules. Every reference to `global.js` uses the same version so it initializes only once per page. Update this version together across HTML and JavaScript imports when releasing future code changes.
+- Script and stylesheet URLs use `?v=lab4-projects` to avoid mixing cached Lab 3 files with Lab 4 modules. Every reference to `global.js` uses the same version so it initializes only once per page. Update this version together across HTML and JavaScript imports when releasing future code changes.
 
 ## Verification
 
@@ -22,11 +22,11 @@ Assignment: <https://dsc106.com/labs/lab04/>
 
 ## Content choices to review
 
-- The first three entries are Labs 4, 3, and 2. The first three JSON records always appear on the homepage; reorder them to feature other work.
+- The first three entries are Project 2, Project 1, and Lab 4. The first three JSON records always appear on the homepage; reorder them to feature other work.
 - Lab dates use 2026, matching this repository's history.
 - RateMyProfessor and BuildVCT retain the existing descriptions and use **2026**, confirmed by Matthew.
-- Six entries remain explicitly labeled placeholders. Their 2024 and 2025 years are sample data, not claims about completed work. The assignment permits placeholders and requires varied years for the next lab.
-- Existing placeholder images remain available locally. Replace them with screenshots whenever convenient.
+- Four entries remain explicitly labeled placeholders. Their 2024 and 2025 years are sample data, not claims about completed work. The assignment permits placeholders and requires varied years for the next lab.
+- Project 2 uses its original chart as a local thumbnail and links to <https://gyjdb.github.io/dsc106-project2/>. Project 1 describes the grocery-store food-processing comparison from the supplied screenshot and uses a placeholder thumbnail pending approval to publish its chart image. Other placeholder images remain available locally.
 
 ## Preview and publish
 
@@ -47,7 +47,7 @@ After reviewing the content, push the Lab 4 commit to `main` using GitHub Deskto
 
 1. Review the placeholders and featured project order.
 2. Follow at least three classmates on GitHub and ask them to follow you back, as requested in Step 3.0. The new stats display the API's actual counts; they are not hardcoded.
-3. Publish the reviewed changes and verify the live site.
+3. Changes are published to GitHub Pages. Verify the live site before recording.
 4. Record a narrated **MP4 of 60 seconds or less**, capturing your computer screen. Submit it with both the repository and website links in the course submission system.
 
 ## Suggested recording outline (about 55 seconds)

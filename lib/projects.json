@@ -1,5 +1,20 @@
 [
   {
+    "title": "DSC 106 Project 2: Persuasive or Deceptive Visualization",
+    "year": 2026,
+    "image": "images/project2-tech-race.png",
+    "imageAlt": "Grouped bar chart comparing growth in five innovation indicators for China and the United States.",
+    "description": "Used World Bank science and technology data to create two visualizations arguing opposing sides of the U.S.–China tech race. Compared growth rates with absolute IP income and documented how data selection, scales, annotations, and framing influence interpretation.",
+    "url": "https://gyjdb.github.io/dsc106-project2/"
+  },
+  {
+    "title": "DSC 106 Project 1: Food Processing Across Grocery Stores",
+    "year": 2026,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Compared average food-processing scores across Whole Foods, Walmart, and Target by food category using a connected dot plot. Highlighted categories with the largest differences between stores and the nearly identical scores for cheese."
+  },
+  {
     "title": "DSC 106 Lab 4: JavaScript II",
     "year": 2026,
     "image": "images/project-placeholder.svg",
@@ -50,22 +65,6 @@
       "Developed a seeded, map-by-map tournament simulation engine using ratings derived from historical match data, alongside a Redis-backed daily leaderboard.",
       "Deployed an interactive roster-drafting application attracting thousands of viewers and reaching 200 concurrent users at peak."
     ]
-  },
-  {
-    "title": "Placeholder Project 07",
-    "year": 2025,
-    "image": "images/project-placeholder.svg",
-    "imageAlt": "Project preview coming soon",
-    "description": "Placeholder for another class assignment or personal project. The year is sample data for the next visualization lab; replace it along with the title, image, and description when adding a real project.",
-    "placeholder": true
-  },
-  {
-    "title": "Placeholder Project 08",
-    "year": 2025,
-    "image": "images/project-placeholder.svg",
-    "imageAlt": "Project preview coming soon",
-    "description": "Placeholder for another class assignment or personal project. The year is sample data for the next visualization lab; replace it along with the title, image, and description when adding a real project.",
-    "placeholder": true
   },
   {
     "title": "Placeholder Project 09",

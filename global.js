@@ -120,6 +120,17 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
     const heading = document.createElement(headingTag);
     heading.textContent = project.title || 'Untitled project';
 
+    if (project.url) {
+      const link = document.createElement('a');
+      link.href = new URL(project.url, BASE_URL).href;
+      link.textContent = heading.textContent;
+      if (new URL(link.href).host !== location.host) {
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+      }
+      heading.replaceChildren(link);
+    }
+
     const image = document.createElement('img');
     // Image paths in the data are relative to the site root, on either page.
     image.src = new URL(project.image || 'images/project-placeholder.svg', BASE_URL).href;
