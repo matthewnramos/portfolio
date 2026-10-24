@@ -23,7 +23,7 @@ Assignment: <https://dsc106.com/labs/lab04/>
 
 - The first three entries are Labs 4, 3, and 2. The first three JSON records always appear on the homepage; reorder them to feature other work.
 - Lab dates use 2026, matching this repository's history.
-- RateMyProfessor and BuildVCT retain the existing descriptions and use **provisional 2026 years**. Confirm or change these years before submitting.
+- RateMyProfessor and BuildVCT retain the existing descriptions and use **2026**, confirmed by Matthew.
 - Six entries remain explicitly labeled placeholders. Their 2024 and 2025 years are sample data, not claims about completed work. The assignment permits placeholders and requires varied years for the next lab.
 - Existing placeholder images remain available locally. Replace them with screenshots whenever convenient.
 
@@ -44,7 +44,7 @@ After reviewing the content, push the Lab 4 commit to `main` using GitHub Deskto
 
 ## Tasks you must do
 
-1. Confirm the provisional project years and review the placeholders.
+1. Review the placeholders and featured project order.
 2. Follow at least three classmates on GitHub and ask them to follow you back, as requested in Step 3.0. The new stats display the API's actual counts; they are not hardcoded.
 3. Publish the reviewed changes and verify the live site.
 4. Record a narrated **MP4 of 60 seconds or less**, capturing your computer screen. Submit it with both the repository and website links in the course submission system.
