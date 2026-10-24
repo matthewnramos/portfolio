@@ -6,10 +6,27 @@
     <title>Matthew Ramos: Personal site and portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script type="module" src="global.js"></script>
+    <script type="module" src="index.js"></script>
 </head>
 <body>
-    <h1>Matthew Ramos</h1>
-    <p>Hi, I'm Matthew! I'm a current UCSD student majoring in Data Science.</p>
-    <img src="images/my-dog.jpg" alt="My small white dog with black ears wearing a blue harness, standing on grass by the ocean." width="400" style="max-width: 100%; height: auto;">
+    <main>
+        <h1>Matthew Ramos</h1>
+        <p>Hi, I'm Matthew! I'm a current UCSD student majoring in Data Science.</p>
+        <img src="images/my-dog.jpg" alt="My small white dog with black ears wearing a blue harness, standing on grass by the ocean." width="400" style="max-width: 100%; height: auto;">
+        <section class="home-section" aria-labelledby="github-heading">
+            <h2 id="github-heading">GitHub Stats</h2>
+            <div id="profile-stats" aria-live="polite" aria-busy="true">
+                <p class="status-message">Loading GitHub statistics…</p>
+            </div>
+        </section>
+        <section class="home-section" aria-labelledby="latest-projects">
+            <h2 id="latest-projects">Latest Projects</h2>
+            <div class="projects" aria-live="polite" aria-busy="true">
+                <p class="status-message">Loading projects…</p>
+            </div>
+            <p><a href="projects/">View all projects</a></p>
+        </section>
+        <noscript><p>Enable JavaScript to see projects and GitHub statistics.</p></noscript>
+    </main>
 </body>
 </html>

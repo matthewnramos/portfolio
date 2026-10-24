@@ -1,0 +1,102 @@
+[
+  {
+    "title": "DSC 106 Lab 4: JavaScript II",
+    "year": 2026,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Loaded project data from JSON with reusable JavaScript modules, rendered the latest projects on the homepage, and displayed live GitHub profile statistics."
+  },
+  {
+    "title": "DSC 106 Lab 3: Introduction to JavaScript",
+    "year": 2026,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Built shared site navigation, a theme selector that remembers the chosen color scheme, and a contact form that creates an encoded email link."
+  },
+  {
+    "title": "DSC 106 Lab 2: Styling with CSS",
+    "year": 2026,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Styled this portfolio with responsive navigation, a project grid, a contact form, and a resume layout."
+  },
+  {
+    "title": "DSC 106 Lab 1: Introduction to the Web Platform",
+    "year": 2026,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Created the portfolio homepage, projects, contact, and resume pages using semantic HTML."
+  },
+  {
+    "title": "RateMyProfessor Department Rating Analysis",
+    "year": 2026,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "tools": "Python, Pandas, Jupyter",
+    "description": "Processed 1.35M+ professor reviews into 10,686 professor-period observations across 40 universities, using Python and pandas to analyze department-level rating differences.",
+    "highlights": [
+      "Applied multiple linear regression and stratified Kruskal-Wallis tests, finding that STEM professors rated 0.56 points lower than humanities professors after adjusting for review volume, school group and time period.",
+      "Analyzed rating differences across four university groups and COVID versus non-COVID periods, finding that department gaps persisted across most subgroups while COVID period alone was not a significant predictor."
+    ]
+  },
+  {
+    "title": "BuildVCT - VALORANT Roster Draft & Tournament Simulator",
+    "year": 2026,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "tools": "TypeScript, Next.js, React, Tailwind",
+    "description": "Built a data pipeline to scrape, clean and structure match and player statistics from 16 esports tournaments, covering 390+ matches and 1,000+ player stat lines.",
+    "highlights": [
+      "Developed a seeded, map-by-map tournament simulation engine using ratings derived from historical match data, alongside a Redis-backed daily leaderboard.",
+      "Deployed an interactive roster-drafting application attracting thousands of viewers and reaching 200 concurrent users at peak."
+    ]
+  },
+  {
+    "title": "Placeholder Project 07",
+    "year": 2025,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Placeholder for another class assignment or personal project. The year is sample data for the next visualization lab; replace it along with the title, image, and description when adding a real project.",
+    "placeholder": true
+  },
+  {
+    "title": "Placeholder Project 08",
+    "year": 2025,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Placeholder for another class assignment or personal project. The year is sample data for the next visualization lab; replace it along with the title, image, and description when adding a real project.",
+    "placeholder": true
+  },
+  {
+    "title": "Placeholder Project 09",
+    "year": 2025,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Placeholder for another class assignment or personal project. The year is sample data for the next visualization lab; replace it along with the title, image, and description when adding a real project.",
+    "placeholder": true
+  },
+  {
+    "title": "Placeholder Project 10",
+    "year": 2024,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Placeholder for another class assignment or personal project. The year is sample data for the next visualization lab; replace it along with the title, image, and description when adding a real project.",
+    "placeholder": true
+  },
+  {
+    "title": "Placeholder Project 11",
+    "year": 2024,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Placeholder for another class assignment or personal project. The year is sample data for the next visualization lab; replace it along with the title, image, and description when adding a real project.",
+    "placeholder": true
+  },
+  {
+    "title": "Placeholder Project 12",
+    "year": 2024,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Placeholder for another class assignment or personal project. The year is sample data for the next visualization lab; replace it along with the title, image, and description when adding a real project.",
+    "placeholder": true
+  }
+]
