@@ -1,4 +1,4 @@
-import { fetchJSON, renderProjects, fetchGitHubData } from './global.js';
+import { fetchJSON, renderProjects, fetchGitHubData } from './global.js?v=lab4';
 
 const projectsContainer = document.querySelector('.projects');
 const profileStats = document.querySelector('#profile-stats');

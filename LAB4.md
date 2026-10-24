@@ -11,6 +11,7 @@ Assignment: <https://dsc106.com/labs/lab04/>
 - The homepage fetches public repositories, public gists, followers, and following for `matthewnramos` from GitHub's API.
 - Loading, empty, and error states provide feedback; a failed GitHub request does not prevent projects from loading.
 - Existing navigation, saved themes, and contact behavior remain available.
+- Script and stylesheet URLs use `?v=lab4` to avoid mixing cached Lab 3 files with Lab 4 modules. Every reference to `global.js` uses the same version so it initializes only once per page. Update this version together across HTML and JavaScript imports when releasing future code changes.
 
 ## Verification
 
