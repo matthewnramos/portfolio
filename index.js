@@ -1,11 +1,11 @@
-import { fetchJSON, renderProjects, fetchGitHubData } from './global.js?v=lab4-ordered';
+import { fetchJSON, renderProjects, fetchGitHubData } from './global.js?v=lab4-latest';
 
 const projectsContainer = document.querySelector('.projects');
 const profileStats = document.querySelector('#profile-stats');
 
 async function loadLatestProjects() {
   try {
-    const projects = await fetchJSON(new URL('./lib/projects.json?v=lab4-ordered', import.meta.url));
+    const projects = await fetchJSON(new URL('./lib/projects.json?v=lab4-latest', import.meta.url));
     renderProjects(projects.slice(0, 3), projectsContainer, 'h3');
   } catch (error) {
     console.error('Unable to load latest projects:', error);

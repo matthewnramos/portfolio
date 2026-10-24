@@ -1,10 +1,10 @@
 [
   {
-    "title": "DSC 106 Project 1: Food Processing Across Grocery Stores",
+    "title": "DSC 106 Lab 4: JavaScript II",
     "year": 2026,
-    "image": "images/project1-grocery-processing.jpg",
-    "imageAlt": "Connected dot plot comparing average food-processing scores across Whole Foods, Walmart, and Target by food category.",
-    "description": "Compared average food-processing scores across Whole Foods, Walmart, and Target by food category using a connected dot plot. Highlighted categories with the largest differences between stores and the nearly identical scores for cheese."
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Loaded project data from JSON with reusable JavaScript modules, rendered the latest projects on the homepage, and displayed live GitHub profile statistics."
   },
   {
     "title": "DSC 106 Project 2: Persuasive or Deceptive Visualization",
@@ -15,18 +15,11 @@
     "url": "https://gyjdb.github.io/dsc106-project2/"
   },
   {
-    "title": "DSC 106 Lab 1: Introduction to the Web Platform",
+    "title": "DSC 106 Project 1: Food Processing Across Grocery Stores",
     "year": 2026,
-    "image": "images/project-placeholder.svg",
-    "imageAlt": "Project preview coming soon",
-    "description": "Created the portfolio homepage, projects, contact, and resume pages using semantic HTML."
-  },
-  {
-    "title": "DSC 106 Lab 2: Styling with CSS",
-    "year": 2026,
-    "image": "images/project-placeholder.svg",
-    "imageAlt": "Project preview coming soon",
-    "description": "Styled this portfolio with responsive navigation, a project grid, a contact form, and a resume layout."
+    "image": "images/project1-grocery-processing.jpg",
+    "imageAlt": "Connected dot plot comparing average food-processing scores across Whole Foods, Walmart, and Target by food category.",
+    "description": "Compared average food-processing scores across Whole Foods, Walmart, and Target by food category using a connected dot plot. Highlighted categories with the largest differences between stores and the nearly identical scores for cheese."
   },
   {
     "title": "DSC 106 Lab 3: Introduction to JavaScript",
@@ -36,11 +29,18 @@
     "description": "Built shared site navigation, a theme selector that remembers the chosen color scheme, and a contact form that creates an encoded email link."
   },
   {
-    "title": "DSC 106 Lab 4: JavaScript II",
+    "title": "DSC 106 Lab 2: Styling with CSS",
     "year": 2026,
     "image": "images/project-placeholder.svg",
     "imageAlt": "Project preview coming soon",
-    "description": "Loaded project data from JSON with reusable JavaScript modules, rendered the latest projects on the homepage, and displayed live GitHub profile statistics."
+    "description": "Styled this portfolio with responsive navigation, a project grid, a contact form, and a resume layout."
+  },
+  {
+    "title": "DSC 106 Lab 1: Introduction to the Web Platform",
+    "year": 2026,
+    "image": "images/project-placeholder.svg",
+    "imageAlt": "Project preview coming soon",
+    "description": "Created the portfolio homepage, projects, contact, and resume pages using semantic HTML."
   },
   {
     "title": "RateMyProfessor Department Rating Analysis",
