@@ -11,7 +11,7 @@ Assignment: <https://dsc106.com/labs/lab04/>
 - The homepage fetches public repositories, public gists, followers, and following for `matthewnramos` from GitHub's API.
 - Loading, empty, and error states provide feedback; a failed GitHub request does not prevent projects from loading.
 - Existing navigation, saved themes, and contact behavior remain available.
-- Script and stylesheet URLs use `?v=lab4-projects` to avoid mixing cached Lab 3 files with Lab 4 modules. Every reference to `global.js` uses the same version so it initializes only once per page. Update this version together across HTML and JavaScript imports when releasing future code changes.
+- Script and stylesheet URLs use `?v=lab4-ordered` to avoid mixing cached Lab 3 files with Lab 4 modules. Every reference to `global.js` uses the same version so it initializes only once per page. Update this version together across HTML and JavaScript imports when releasing future code changes.
 
 ## Verification
 
@@ -22,11 +22,11 @@ Assignment: <https://dsc106.com/labs/lab04/>
 
 ## Content choices to review
 
-- The first three entries are Project 2, Project 1, and Lab 4. The first three JSON records always appear on the homepage; reorder them to feature other work.
+- The entries are ordered Project 1, Project 2, Labs 1–4, other portfolio projects, and placeholders. The first three entries are Project 1, Project 2, and Lab 1. The first three JSON records always appear on the homepage; reorder them to feature other work.
 - Lab dates use 2026, matching this repository's history.
 - RateMyProfessor and BuildVCT retain the existing descriptions and use **2026**, confirmed by Matthew.
 - Four entries remain explicitly labeled placeholders. Their 2024 and 2025 years are sample data, not claims about completed work. The assignment permits placeholders and requires varied years for the next lab.
-- Project 2 uses its original chart as a local thumbnail and links to <https://gyjdb.github.io/dsc106-project2/>. Project 1 describes the grocery-store food-processing comparison from the supplied screenshot and uses a placeholder thumbnail pending approval to publish its chart image. Other placeholder images remain available locally.
+- Project 2 uses its original chart as a local thumbnail and links to <https://gyjdb.github.io/dsc106-project2/>. Project 1 describes the grocery-store food-processing comparison from the supplied screenshot and includes the chart-only thumbnail approved for public publishing by Matthew. Other placeholder images remain available locally.
 
 ## Preview and publish
 

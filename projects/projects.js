@@ -1,10 +1,10 @@
-import { fetchJSON, renderProjects } from '../global.js?v=lab4-projects';
+import { fetchJSON, renderProjects } from '../global.js?v=lab4-ordered';
 
 const projectsContainer = document.querySelector('.projects');
 const projectsTitle = document.querySelector('.projects-title');
 
 try {
-  const projects = await fetchJSON(new URL('../lib/projects.json?v=lab4-projects', import.meta.url));
+  const projects = await fetchJSON(new URL('../lib/projects.json?v=lab4-ordered', import.meta.url));
   renderProjects(projects, projectsContainer);
   projectsTitle.textContent = `${projects.length} Projects`;
 } catch (error) {
