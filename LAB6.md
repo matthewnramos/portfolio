@@ -12,11 +12,11 @@ Run `npm run analyze` after committing code changes to refresh `meta/loc.csv`. K
 
 The refresh command runs the lab's elocuent analyzer with two-space indentation in a temporary checkout of the latest commit. This avoids treating unfinished edits as a `0000000` commit or generating nonexistent GitHub commit links. It leaves the working tree intact and removes its temporary checkout afterward. The CSV describes surviving HTML, CSS, and JavaScript lines in the analyzed revision, rather than all edits ever made.
 
-The included snapshot is from `e1a3e4b`: 1,023 lines, 12 commits, eight files, an average file length of 127.875 lines (displayed as 128), a longest line of 265 characters, and a maximum indentation depth of 12. Commit these implementation changes before refreshing if you want this lab's new source included in the next snapshot.
+The deployed snapshot is from `db830d3` and includes the Lab 6 implementation: 1,508 lines, 13 commits, ten files, an average file length of 150.8 lines (displayed as 151), a longest line of 265 characters, and a maximum indentation depth of 12. Future commits need another `npm run analyze` refresh.
 
 ## Walkthrough
 
-`deliverables/lab06-walkthrough.mp4` is a 48.11-second, 1440 by 1080 MP4 with captured browser interactions and synthetic Samantha narration. It follows the lab's requested order: present the visualization, demonstrate interactions, then explain a useful takeaway about square-root scales. The video file is a submission artifact, rather than a website asset. Its full H.264 video and AAC audio streams decoded without errors (1,442 frames).
+`deliverables/lab06-walkthrough.mp4` is a 48.11-second, 1440 by 1080 MP4 with captured browser interactions and synthetic Samantha narration. It follows the lab's requested order: present the visualization, demonstrate interactions, then explain a useful takeaway about square-root scales. It shows the earlier `e1a3e4b` snapshot, before the deployment refresh added Lab 6's own code. The video file is a submission artifact, rather than a website asset. Its full H.264 video and AAC audio streams decoded without errors (1,442 frames).
 
 Narration:
 
