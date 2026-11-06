@@ -1,0 +1,11 @@
+{
+  "name": "matthew-ramos-portfolio",
+  "private": true,
+  "scripts": {
+    "analyze": "node scripts/analyze.mjs",
+    "start": "python3 -m http.server 8000 --bind 127.0.0.1"
+  },
+  "devDependencies": {
+    "elocuent": "^0.0.4"
+  }
+}
