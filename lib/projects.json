@@ -1,5 +1,14 @@
 [
   {
+    "title": "DSC 106 Lab 7: Bikewatching",
+    "year": 2026,
+    "image": "images/lab07-bikewatching.png",
+    "imageAlt": "Interactive Boston and Cambridge bike map with green bike lanes and station circles colored by arrivals and departures at 8 AM.",
+    "description": "Mapped March 2024 Bluebikes traffic using Mapbox and a D3 SVG overlay. Added bike lanes, station tooltips, proportional circle sizes, traffic-flow colors, and a responsive time filter with minute buckets for efficient updates.",
+    "tools": "JavaScript, D3, Mapbox GL JS, GeoJSON",
+    "url": "https://matthewnramos.github.io/bikewatching/"
+  },
+  {
     "title": "DSC 106 Lab 4: JavaScript II",
     "year": 2026,
     "image": "images/project-placeholder.svg",

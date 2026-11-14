@@ -5,7 +5,7 @@ const profileStats = document.querySelector('#profile-stats');
 
 async function loadLatestProjects() {
   try {
-    const projects = await fetchJSON(new URL('./lib/projects.json?v=lab4-latest', import.meta.url));
+    const projects = await fetchJSON(new URL('./lib/projects.json?v=lab7', import.meta.url));
     renderProjects(projects.slice(0, 3), projectsContainer, 'h3');
   } catch (error) {
     console.error('Unable to load latest projects:', error);

@@ -102,7 +102,7 @@ clearButton.addEventListener('click', () => {
 });
 
 try {
-  projects = await fetchJSON(new URL('../lib/projects.json?v=lab4-latest', import.meta.url));
+  projects = await fetchJSON(new URL('../lib/projects.json?v=lab7', import.meta.url));
   colors.domain([...new Set(projects.map(project => String(project.year)))].sort(d3.descending));
   updateProjects();
   searchInput.disabled = false;
